@@ -11,6 +11,7 @@ namespace SimulareExamen2
                 new Triunghi(new Punct(2,2),new Punct(3,3),new Punct(4,4))
                                                     };
             GeometryUtils.Translate(1, 1, triunghiuri);
+
             for (int i = 0; i < triunghiuri.Length; i++)
             {
                 Console.WriteLine(triunghiuri[i].A.X);
